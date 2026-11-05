@@ -15,7 +15,7 @@ jobs:
     
       - name: Build APK
         run: |
-          unzip -q PhotoArena.zip
+          unzip -q PhotoArena (1).zip
           cd PhotoArena
           chmod +x gradlew
           ./gradlew assembleDebug
